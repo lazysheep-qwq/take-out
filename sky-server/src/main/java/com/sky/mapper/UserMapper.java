@@ -42,4 +42,12 @@ public interface UserMapper {
      * @return
      */
 
+    /**
+     * 根据动态条件统计用户数量
+     *
+     * @param map
+     * @return
+     */
+    Integer countByMap(Map<String, Object> map);
 }
+
